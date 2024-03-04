@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "class_room_mappings",
+  "info": {
+    "singularName": "class-room-mapping",
+    "pluralName": "class-room-mappings",
+    "displayName": "Class Room / Mapping"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NumberRoom": {
+      "type": "string"
+    }
+  }
+}

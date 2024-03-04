@@ -16,7 +16,7 @@ services:
     depends_on:
       - db
     ports:
-      - 1337:1337 
+      - 1338:1337 
   db:
     image: postgres:13
     container_name: 67-ced-db
@@ -26,3 +26,5 @@ services:
       POSTGRES_USER: ${DATABASE_USERNAME}
       POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
       POSTGRES_DB: ${DATABASE_NAME}
+    ports:
+      - 54231:5432
